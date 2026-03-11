@@ -8,4 +8,4 @@ src/store/*.json
 .omc/
 config.yaml
 .idea/
-./tmp
+tmp/*
