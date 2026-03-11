@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+logs/
+src/store/*.json
+!src/store/.gitkeep
+.DS_Store
+.omc/
+config.yaml
+.idea/
+./tmp

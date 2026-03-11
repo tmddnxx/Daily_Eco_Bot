@@ -1,0 +1,11 @@
+now - 최신 브리핑 생성
+search - 키워드로 뉴스 검색
+market - 주요 지수 시세
+watch - 관심 키워드 등록
+unwatch - 관심 키워드 해제
+watchlist - 관심 목록 확인
+history - 과거 브리핑 조회
+cancel - 진행 중인 작업 취소
+chatid - 내 Chat ID 확인
+settings - 현재 설정 확인
+help - 도움말
