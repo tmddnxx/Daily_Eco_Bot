@@ -1,0 +1,45 @@
+schedule:
+  time: "07:00"
+  timezone: "Asia/Seoul"
+
+telegram:
+  # 구독자 chatId는 /chatid 명령어로 확인 후 여기에 추가
+  # 빈 배열이면 누구나 사용 가능, 값이 있으면 해당 chatId만 허용
+  subscriberChatIds: [
+
+  ]
+
+summarizer:
+  tool: "claude-cli"
+  language: "ko"
+  briefingStyle: "concise"
+  dailyLimit: 50
+  cacheDetailSummary: true
+
+sources:
+  naver-news:
+    enabled: true
+    categories:
+      - "코스피 코스닥 증시"
+      - "미국증시 나스닥"
+      - "부동산 정책"
+      - "금리 환율 경제"
+      - "대통령 경제정책"
+      - "AI 반도체"
+  rss:
+    enabled: true
+    feeds:
+      - name: "한국경제"
+        url: "https://www.hankyung.com/feed/all-news"
+      - name: "매일경제"
+        url: "https://www.mk.co.kr/rss/30000001/"
+      - name: "블로터"
+        url: "https://cdn.bloter.net/rss/gns_allArticle.xml"
+  yahoo-finance:
+    enabled: true
+    symbols: ["^GSPC", "^IXIC", "^DJI", "^KS11", "^KQ11", "USDKRW=X"]
+  web-scraper:
+    enabled: false
+
+watch:
+  checkInterval: 30
