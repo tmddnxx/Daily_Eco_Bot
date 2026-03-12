@@ -54,7 +54,7 @@ claude -p "hello" --output-format text  # 정상 응답 확인
 ## 설치
 
 ```bash
-cd /Users/dowhat/Downloads/morning-briefing
+cd /Users/dowhat/Desktop/LSW/Daily_Eco_Bot
 
 # 의존성 설치
 npm install

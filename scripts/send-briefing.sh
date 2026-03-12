@@ -5,6 +5,8 @@
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 
+echo "SCRIPT_DIR: $SCRIPT_DIR"
+echo "PROJECT_DIR: $PROJECT_DIR"
 echo "📢 전체 구독자에게 브리핑 발송 중..."
 
 cd "$PROJECT_DIR"
